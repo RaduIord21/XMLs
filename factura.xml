@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FACTURA SYSTEM "factura.dtd">
+<FACTURA>
+    <CLIENT ID="1" nume="Popescu" adresa_facturare="Craiova, Strada general Dragalina nr.34" Firma="True">    
+        <PRODUS>
+            <DENUMIRE>
+                Telefon Samsung Galaxy S23
+            </DENUMIRE>
+            <DESCRIERE>
+                 Suprafața reală vizibilă este mai mică din cauza colțurilor rotunjite și/sau a spațiului pentru camera foto. *Valoare tipică testată în condiții de laborator terț. Valoarea tipică este valoarea medie estimată, luând în considerare abaterea capacității bateriei dintre eșantioanele de baterii testate, conform standardului IEC 61960. Capacitatea nominală este de 3785 mAh pentru Galaxy S23, 4565 mAh pentru Galaxy S23+ și 4855 mAh pentru Galaxy S23 Ultra. Durata reală de viață a bateriei poate varia, în funcție de mediul de rețea, modelele de utilizare și alți factori.
+            </DESCRIERE>
+            <PRET>
+                3700
+            </PRET>
+        </PRODUS>
+        <PRODUS>
+            <DENUMIRE>
+                Incarcator Samsung
+            </DENUMIRE>
+            <DESCRIERE>
+                Incarcator type-C de 15W
+            </DESCRIERE>
+            <PRET>
+                88
+            </PRET>
+        </PRODUS>
+    </CLIENT>
+    <CLIENT ID="2" nume="Andreescu" adresa_facturare="Craiova, Strada Libertatii nr. 10"> 
+        <PRODUS>
+            <DENUMIRE>
+                Casti Huawei Freebuds SE
+            </DENUMIRE>
+            <DESCRIERE>
+                Casti Huawei Albe wireless cu baterie de 410 mAh 
+            </DESCRIERE>
+            <PRET>
+                220
+            </PRET>
+        </PRODUS>
+    </CLIENT>
+</FACTURA>
