@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE FACTURA SYSTEM "factura.dtd">
-<FACTURA>
-    <CLIENT ID="1" nume="Popescu" adresa_facturare="Craiova, Strada general Dragalina nr.34" Firma="True">    
+<FACTURA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="factura.xsd">
+    <CLIENT ID="1" nume="Popescu" adresa_facturare="Craiova, Strada general Dragalina nr.34" Firma="true">    
         <PRODUS>
             <DENUMIRE>
                 Telefon Samsung Galaxy S23
@@ -25,7 +24,7 @@
             </PRET>
         </PRODUS>
     </CLIENT>
-    <CLIENT ID="2" nume="Andreescu" adresa_facturare="Craiova, Strada Libertatii nr. 10"> 
+    <CLIENT ID="2" nume="Andreescu" adresa_facturare="Craiova, Strada Libertatii nr. 10" Firma="false"> 
         <PRODUS>
             <DENUMIRE>
                 Casti Huawei Freebuds SE

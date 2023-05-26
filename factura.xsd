@@ -1,0 +1,30 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="FACTURA">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="CLIENT" minOccurs = "0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CLIENT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="PRODUS" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="ID" type="xs:int" use="required"/>
+      <xs:attribute name="nume" type="xs:string" use="required"/>
+      <xs:attribute name="adresa_facturare" type="xs:string" use="required"/>
+      <xs:attribute name="Firma" type="xs:boolean" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PRODUS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="DENUMIRE" type="xs:string"/>
+        <xs:element name="DESCRIERE" type="xs:string"/>
+        <xs:element name="PRET" type="xs:integer"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
